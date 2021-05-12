@@ -1,4 +1,6 @@
 main() {
-  String text = 'Hello World';
-  print(text is String); // true
+  var a = null;
+  var b = 12;
+  var res = a ?? b;
+  print(res);
 }
